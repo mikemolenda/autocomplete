@@ -17,5 +17,5 @@ Northwestern University
 CIS 419 Web Application Development, Winter 2016  
 March 13, 2016  
 
-Mike Molenda
+Mike Molenda  
 michaelmolenda2014@u.northwestern.edu   

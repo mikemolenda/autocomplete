@@ -10,6 +10,11 @@ michaelmolenda2014@u.northwestern.edu
 
 # Deployment
 
-Deploy the app by copying homework directory from Deploy to Tomcat web apps directory.
+Create a new directory in tomcat/webapps called Shop.
 
-Run the app by navigating to http://{HOSTNAME}/homework/ or http://{HOSTNAME}/homework/Shop.
+Copy the css, img, includes, and js directories to the document root of the Shop app.
+
+Compile all Java files directly to the WEB-INF/classes directory.
+
+Copy web.xml to the WEB-INF directory.
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+
+  <!-- Shop (Home) -->
+  <servlet>
+      <servlet-name>Shop</servlet-name>
+      <servlet-class>Shop</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Shop</servlet-name>
+      <url-pattern>/Shop</url-pattern>
+  </servlet-mapping> 
+
+  <servlet-mapping>
+      <servlet-name>Shop</servlet-name>
+      <url-pattern>/Home</url-pattern>
+  </servlet-mapping> 
+
+  <servlet-mapping>
+      <servlet-name>Shop</servlet-name>
+      <url-pattern></url-pattern><!-- maps Home to context root-->
+  </servlet-mapping>
+
+  <!-- AutoComplete -->
+  <servlet>
+      <servlet-name>AutoComplete</servlet-name>
+      <servlet-class>AutoComplete</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>AutoComplete</servlet-name>
+      <url-pattern>/AutoComplete</url-pattern>
+  </servlet-mapping>
+
+  <!-- CancelOrder -->
+  <servlet>
+      <servlet-name>CancelOrder</servlet-name>
+      <servlet-class>CancelOrder</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>CancelOrder</servlet-name>
+      <url-pattern>/CancelOrder</url-pattern>
+  </servlet-mapping> 
+
+  <!-- Checkout -->
+  <servlet>
+      <servlet-name>Checkout</servlet-name>
+      <servlet-class>Checkout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Checkout</servlet-name>
+      <url-pattern>/Checkout</url-pattern>
+  </servlet-mapping> 
+
+  <!-- Confirmation -->
+  <servlet>
+      <servlet-name>Confirmation</servlet-name>
+      <servlet-class>Confirmation</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Confirmation</servlet-name>
+      <url-pattern>/Confirmation</url-pattern>
+  </servlet-mapping> 
+  
+  <!-- Shop: SEE Shop(Home) at the top of this document -->
+
+  <!-- ViewCart -->
+  <servlet>
+      <servlet-name>ViewCart</servlet-name>
+      <servlet-class>ViewCart</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>ViewCart</servlet-name>
+      <url-pattern>/ViewCart</url-pattern>
+  </servlet-mapping> 
+
+
+  <!-- ViewItem -->
+  <servlet>
+      <servlet-name>ViewItem</servlet-name>
+      <servlet-class>ViewItem</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>ViewItem</servlet-name>
+      <url-pattern>/ViewItem</url-pattern>
+  </servlet-mapping> 
+
+</web-app>

@@ -1,0 +1,32 @@
+.jumbotron {
+  color: #cccccc;
+  background-color: #333333;
+  margin-bottom: 0;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+.panel-heading {
+  text-transform: uppercase;
+}
+
+.autocomplete-container {
+    position: relative;
+}
+
+#complete-table {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.popupCell {
+    padding: 0.5em 1.0em;
+}
+
+.popupCell:hover {
+  background-color: #eeeeee;
+}

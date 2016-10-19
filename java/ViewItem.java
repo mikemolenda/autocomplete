@@ -3,15 +3,6 @@
  * 
  * Servlet that displays the item from the user's search. User can add the item 
  * to their cart, or return to search.
- * 
- * Northwestern University
- * CIS 419 Web Application Development, Winter 2016
- * Week 10 Assignment #5
- *
- * March 13, 2016
- *
- * Mike Molenda
- * michaelmolenda2014@u.northwestern.edu 
  */
 
 import java.io.*;

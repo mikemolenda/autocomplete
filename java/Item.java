@@ -2,15 +2,6 @@
  * Item
  *
  * Provides data structures and methods for storing and retrieving item data.
- *
- * Northwestern University
- * CIS 419 Web Application Development, Winter 2016
- * Week 10 Assignment #5
- *
- * March 13, 2016
- *
- * Mike Molenda
- * michaelmolenda2014@u.northwestern.edu 
  */
 
 public class Item {

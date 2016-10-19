@@ -2,16 +2,6 @@
  * autocomplete.js
  *
  * Provides AJAX autocompletion for search form.
- * Borrowed from CIS419 course materials, Session 9, ajax-my-app
- *
- * Northwestern University
- * CIS 419 Web Application Development, Winter 2016
- * Week 10 Assignment #5
- *
- * March 13, 2016
- *
- * Mike Molenda
- * michaelmolenda2014@u.northwestern.edu 
  */
 
 var xhttp;              // XMLHttpRequest object

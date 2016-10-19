@@ -2,15 +2,6 @@
  * Utilities
  * 
  * Provides utility methods for common tasks like printing HTML elements
- * 
- * Northwestern University
- * CIS 419 Web Application Development, Winter 2016
- * Week 10 Assignment #5
- *
- * March 13, 2016
- *
- * Mike Molenda
- * michaelmolenda2014@u.northwestern.edu 
  */
 
 public class Utilities {

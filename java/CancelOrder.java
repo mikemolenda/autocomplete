@@ -3,15 +3,6 @@
  * 
  * Servlet that allows customer to cancel an order by providing the 
  * confirmation number they received after checkout. 
- * 
- * Northwestern University
- * CIS 419 Web Application Development, Winter 2016
- * Week 10 Assignment #5
- *
- * March 13, 2016
- *
- * Mike Molenda
- * michaelmolenda2014@u.northwestern.edu 
  */
 
 import java.io.*;
